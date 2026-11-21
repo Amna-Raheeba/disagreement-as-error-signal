@@ -1,0 +1,137 @@
+{
+  "by_region": {
+    "interaction": {
+      "auc_confidence": 0.496588693957115,
+      "auc_disagreement": 0.4853801169590643,
+      "error_rate": 0.3870967741935484,
+      "n_model_rows": 93
+    },
+    "normal": {
+      "auc_confidence": 0.7239377718300435,
+      "auc_disagreement": 0.6047172967547675,
+      "error_rate": 0.24691358024691357,
+      "n_model_rows": 567
+    },
+    "shift": {
+      "auc_confidence": 0.6009358288770054,
+      "auc_disagreement": 0.5651737967914439,
+      "error_rate": 0.24444444444444444,
+      "n_model_rows": 90
+    }
+  },
+  "models": {
+    "knn": {
+      "accuracy": 0.708,
+      "auc_combined": 0.6813714108815108,
+      "auc_confidence": 0.676689110749942,
+      "auc_disagreement": 0.5537497097747852,
+      "auc_ensemble_variance": 0.6949152542372882,
+      "auc_random": 0.5200061914712484,
+      "error_rate": 0.292,
+      "mean_disagreement_correct": 0.27661198288077243,
+      "mean_disagreement_error": 0.29566806177511373
+    },
+    "logistic": {
+      "accuracy": 0.796,
+      "auc_combined": 0.5793181594245739,
+      "auc_confidence": 0.6735638979209775,
+      "auc_disagreement": 0.45777909153611196,
+      "auc_ensemble_variance": 0.5854764016159227,
+      "auc_random": 0.48684599467927875,
+      "error_rate": 0.204,
+      "mean_disagreement_correct": 0.06082979999014848,
+      "mean_disagreement_error": 0.057544718069249136
+    },
+    "tree": {
+      "accuracy": 0.704,
+      "auc_combined": 0.6917997542997543,
+      "auc_confidence": 0.6968289312039312,
+      "auc_disagreement": 0.5946329852579852,
+      "auc_ensemble_variance": 0.6401259213759214,
+      "auc_random": 0.5176597051597052,
+      "error_rate": 0.296,
+      "mean_disagreement_correct": 0.2045969660403996,
+      "mean_disagreement_error": 0.23309418087447792
+    }
+  },
+  "n_explained_test": 250,
+  "n_explained_val": 250,
+  "n_train": 800,
+  "pooled": {
+    "auc_combined": 0.650829774868613,
+    "auc_confidence": 0.6823606466249502,
+    "auc_disagreement": 0.5353872621896275,
+    "auc_ensemble_variance": 0.6401725257430441,
+    "auc_random": 0.508170630436744
+  },
+  "seed": 7,
+  "test_region_counts": {
+    "interaction": 31,
+    "normal": 189,
+    "shift": 30
+  },
+  "triage": {
+    "knn": {
+      "error_capture": 0.2191780821917808,
+      "flagged_error_rate": 0.3333333333333333,
+      "n": 250,
+      "n_flagged": 48,
+      "overall_error_rate": 0.292,
+      "review_rate": 0.192,
+      "threshold": 0.38572071963840066,
+      "unflagged_error_rate": 0.28217821782178215
+    },
+    "logistic": {
+      "error_capture": 0.2549019607843137,
+      "flagged_error_rate": 0.203125,
+      "n": 250,
+      "n_flagged": 64,
+      "overall_error_rate": 0.204,
+      "review_rate": 0.256,
+      "threshold": 0.08590241189636827,
+      "unflagged_error_rate": 0.20430107526881722
+    },
+    "tree": {
+      "error_capture": 0.20270270270270271,
+      "flagged_error_rate": 0.3488372093023256,
+      "n": 250,
+      "n_flagged": 43,
+      "overall_error_rate": 0.296,
+      "review_rate": 0.172,
+      "threshold": 0.3071144153528483,
+      "unflagged_error_rate": 0.28502415458937197
+    }
+  },
+  "triage_combined": {
+    "knn": {
+      "error_capture": 0.3150684931506849,
+      "flagged_error_rate": 0.48936170212765956,
+      "n": 250,
+      "n_flagged": 47,
+      "overall_error_rate": 0.292,
+      "review_rate": 0.188,
+      "threshold": 0.6716867469879517,
+      "unflagged_error_rate": 0.24630541871921183
+    },
+    "logistic": {
+      "error_capture": 0.19607843137254902,
+      "flagged_error_rate": 0.2127659574468085,
+      "n": 250,
+      "n_flagged": 47,
+      "overall_error_rate": 0.204,
+      "review_rate": 0.188,
+      "threshold": 0.6927710843373494,
+      "unflagged_error_rate": 0.2019704433497537
+    },
+    "tree": {
+      "error_capture": 0.2972972972972973,
+      "flagged_error_rate": 0.5,
+      "n": 250,
+      "n_flagged": 44,
+      "overall_error_rate": 0.296,
+      "review_rate": 0.176,
+      "threshold": 0.7269076305220884,
+      "unflagged_error_rate": 0.2524271844660194
+    }
+  }
+}

@@ -1,0 +1,4 @@
+model,accuracy,auc_disagreement,auc_confidence,auc_ensemble_variance,auc_combined,auc_random
+knn,0.7080,0.5537,0.6767,0.6949,0.6814,0.5200
+logistic,0.7960,0.4578,0.6736,0.5855,0.5793,0.4868
+tree,0.7040,0.5946,0.6968,0.6401,0.6918,0.5177
